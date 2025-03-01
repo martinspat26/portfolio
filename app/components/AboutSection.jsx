@@ -30,7 +30,7 @@ const TAB_DATA = [
         content: (
             <ul className='list-disc pl-2'>
                 <li>Bachelor Computer Engineering</li>
-                <li>Universidade Autónoma de Lisboa, Portugal</li>
+                <p>Universidade Autónoma de Lisboa, Portugal</p>
             </ul>
         )
     },
@@ -40,7 +40,9 @@ const TAB_DATA = [
         content: (
             <ul className='list-disc pl-2'>
                 <li>Javra Software, Portugal</li>
-                <li>Coda. Tech, Germany </li>
+                    <p>Junior PHP developer</p>
+                <li>Coda. Tech, Spain </li>
+                    <p>Fullstack developer for Netformic GmbH, Germany</p>
             </ul>
         )
     },
@@ -68,7 +70,7 @@ const AboutSection = () => {
         });
     }
     return (
-    <section className="text-white">
+    <section id ="about" className="text-white">
         <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <Image src="/images/aboutme.png" width={500} height={500} />
         <div className='mt-4 md:mt-0 text-left fle flex-col h-full'>
