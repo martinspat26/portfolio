@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 80">
+  <!-- Gradient Definitions -->
+  <defs>
+    <linearGradient id="tailwindGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#facc15" />
+      <stop offset="40%" stop-color="#fd7e14 " />
+      <stop offset="90%" stop-color="#db2777" />
+    </linearGradient>
+  </defs>
+  
+  <rect x="10" y="10" width="180" height="60" rx="10" fill="url(#tailwindGradient)" />
+  
+  <text x="100" y="50" font-family="Arial, sans-serif" font-size="40" font-weight="bold" text-anchor="middle" fill="#333333">PM</text>
+  
+  <path d="M170 15 L180 25 L170 35" stroke="#333333" stroke-width="3" fill="none" />
+  <path d="M20 45 L30 55 L20 65" stroke="#333333" stroke-width="3" fill="none" />
+  
+  <rect x="35" y="60" width="130" height="3" fill="#333333" />
+</svg>
